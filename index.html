@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>API Calls in JavaScript</h1>
+    <div>
+        <button id="fetchButton">Fetch Data with fetch()</button> // This button will fetch data using the Fetch API
+        <button id="xhrButton">Fetch Data with XHR</button> // This button will fetch data using XMLHttpRequest
+    </div>
+    <div id="dataDisplay">
+    </div>
+    <div>
+        <h2>Send Data Using POST</h2>
+        <input type="text" id="postTitle" placeholder="Enter post title"> // This input field is for the title of the post
+        <input type="text" id="postBody" placeholder="Enter post body"> // This input field is for the body of the post
+        <button id="postButton">Send POST Request</button>
+    </div>
+    <div>
+        <h2>Update Data Using PUT</h2>
+        <input type="text" id="putId" placeholder="Enter post ID to update"> // This input field is for the ID of the post to update
+        <input type="text" id="putTitle" placeholder="Enter new title"> // This input field is for the new title of the post
+        <input type="text" id="putBody" placeholder="Enter new body"> // This input field is for the new body of the post
+        <button id="putButton">Send PUT Request</button>
+    </div>
+    <div>
+        <h2>Delete a Post</h2>
+        <input type="text" id="deleteId" placeholder="Enter post ID to delete"> // This input field is for the ID of the post to delete
+        <button id="deleteButton">Delete Post</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
